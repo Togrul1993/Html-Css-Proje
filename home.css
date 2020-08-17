@@ -1,0 +1,60 @@
+.load-img {
+	background-image: url(/sekil/sekil1.jpg);
+	background-size: cover;
+	
+}
+
+.top-category {
+	color: white;
+	z-index: 999999999999999;
+}
+
+.category-tab {
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	list-style: none;
+	margin-top: 5px;
+	
+	display: none;
+	
+}
+
+
+
+.span{
+	
+	border-bottom: 2px solid white;
+	width: 20px;
+	flex-direction: column;
+	flex-wrap: wrap;
+	display: flex;
+	margin: 2px;
+	
+	
+}
+
+.span-list {
+	float: left;
+	flex-direction: column;
+	flex-wrap: wrap;
+	display: flex;
+	
+}
+
+
+.list-unstyled{
+	width: auto;
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row-reverse;
+	box-sizing: border-box;
+	
+}
+
+.category-tab .list-unstyled li {
+	width: 40%;
+	font-size: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+}

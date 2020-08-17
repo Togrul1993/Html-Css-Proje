@@ -1,0 +1,173 @@
+.div{
+	z-index: 500;
+	width: 600px;
+	height: auto;
+	padding: 2px;
+	display: none;
+	
+	
+}
+
+.span_div {
+	width: auto;
+	height: auto;
+	float: left;
+	flex: auto;
+	flex-wrap: wrap;
+	flex-direction: column;
+	
+}
+
+.span {
+	width: 30px;
+	border-bottom: 2px solid red;
+	display: block;
+	flex-direction: column;
+	margin-bottom: 5px;
+	margin-right: 3px;
+	
+}
+
+.header {
+	background-image: url(/sekil/sekil1.jpg);
+	background-size: cover;
+	height: 300px;
+}
+
+li{
+	margin: 2px;
+	width: 35%;
+	
+}
+
+ul{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+
+
+a div .img-fluid{
+	height: 180px;
+	width: 100%;
+
+}
+
+
+
+
+
+.zoom:hover{
+ 	transform: scale(2 , 0.5);
+}
+
+
+.inner {
+	overflow: hidden;
+}
+
+.inner img{
+	transition: all 0.5s ease;
+}
+
+
+.inner:hover img{
+	transform: scale(1.2);
+}
+
+.container{
+	padding: 10%;
+}
+
+
+.h{
+	height: 240px;
+}
+
+
+
+.div_ul_li {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 5%;
+
+}
+
+
+
+.li_li {
+	width: 30%;
+	border:none;
+	height: auto;
+	list-style: none;
+	padding: 1%;
+}
+
+.ul_li {
+	
+	width: 100%;
+}
+
+
+.div_12 {
+	border-radius: 50%;
+	border: 1px solid red;
+	width: 15%;
+	height: 30%;
+	text-align: center;
+}
+
+
+.footer {
+	background-image: url(/sekil/sekil1.jpg);
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	
+}
+
+
+.droplangue {
+	list-style: none;
+	box-sizing: border-box;
+	flex: auto;
+	flex-direction: column;
+	flex-wrap: wrap;
+	display: inline-block;
+	width: 50%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
